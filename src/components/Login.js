@@ -8,7 +8,7 @@ const Login = () => {
 
   const email = useRef(null);
   const password = useRef(null);
-  const name = useRef(name);
+  
 
   const handleButtonClick = () => {
     const message = checkValidData(email.current.value, password.current.value);
@@ -48,7 +48,6 @@ const Login = () => {
 
         {!isSignInForm && 
         <input 
-        ref={name}
         type="text" 
         placeholder="Full Name"
         className='p-3 my-4 w-full bg-gray-700' />}
