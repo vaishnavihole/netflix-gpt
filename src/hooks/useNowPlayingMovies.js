@@ -5,7 +5,7 @@ import {addNowPlayingMovies} from "../utils/moviesSlice";
 
 
 const useNowPlayingMovies = () => {
-    const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   const getNowPlayingMovies = async () => {
    const data = await fetch(

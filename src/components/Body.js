@@ -3,6 +3,8 @@ import Browse from './Browse';
 import { createBrowserRouter} from 'react-router-dom';
 import { RouterProvider } from 'react-router-dom';
 
+import useNowPlayingMovies from './../hooks/useNowPlayingMovies';
+
  const  Body = () => {
     const appRouter = createBrowserRouter([
         {
@@ -15,6 +17,8 @@ import { RouterProvider } from 'react-router-dom';
             element: <Browse/>
         },
     ]);
+
+  useNowPlayingMovies();
 
   return (
     <div>
