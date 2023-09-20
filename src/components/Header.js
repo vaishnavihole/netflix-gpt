@@ -54,7 +54,7 @@ import {toggleGptSearchView} from "../utils/gptSlice";
       src={LOGO} alt="logo"/>
       {user && (
         <div className="flex p-2">
-          <button className="py-2 px-4 m-2 mx-4 my-2 bg-purple-800 text-white rounded-lg" 
+          <button type="button" className="py-2 px-4 m-2 mx-4 my-2 bg-purple-800 text-white rounded-lg" 
           onClick={handleGptSearch}>
            GPT Search</button>
         <button onClick={handleSignOut} className="font-bold text-white">

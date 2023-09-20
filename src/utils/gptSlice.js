@@ -3,12 +3,12 @@ import { createSlice } from "@reduxjs/toolkit";
 const gptSlice = createSlice({
     name: "gpt",
     initialState: {
-        showGotSearch: false,
+        showGptSearch: false,
     },
     
     reducers: {
     toggleGptSearchView: (state) => {
-        state.showGotSearch = !state.showGotSearch;
+        state.showGptSearch = !state.showGptSearch;
     },
 },
 })
