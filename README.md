@@ -32,7 +32,7 @@ Netflix GPT was created as a practical learning project to:
 
 ## Usage
 
-To experience Netflix GPT, visit the [Live Demo](https://netflix-gpt-by-vaishnavi.netlify.app). Explore the movie search and category-wise viewing features.
+To experience Netflix GPT, visit the (https://netflix-gpt-by-vaishnavi.netlify.app). Explore the movie search and category-wise viewing features.
 
 ## Contribute
 
